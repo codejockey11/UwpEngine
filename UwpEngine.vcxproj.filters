@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>5f647df0-78b0-4bf6-bf72-6821c85b3cc5</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>ff0ce209-e4ca-4892-84e5-225d02070aee</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>8a91d631-00f3-455a-9ba3-27995f936367</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="Common\CFrameTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CVideoDevice.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClCompile Include="Common\CVideoDevice.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <FxCompile Include="Content\SamplePixelShader.hlsl">
+      <Filter>Content</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\SampleVertexShader.hlsl">
+      <Filter>Content</Filter>
+    </FxCompile>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EngineMain.cpp" />
+    <ClCompile Include="EventManager.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Common\CSound.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CSound3D.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CSoundDevice.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CSoundManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CWavFileHeader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CWavLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CMouseDevice.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CKeyMap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CPacket.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CKey.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CKeyboardDevice.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CFont.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CFontManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CTexture.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CTextureManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CBmpImage.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CTgaImage.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CImage.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CImageManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CClient.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CClientSocket.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CServer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CWinsockError.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CWinsockErrorItem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CLinkList.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CLinkListNode.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CShader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CShaderManager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CCamera.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CModel.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CShape.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CHudImage.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CString.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EngineMain.h" />
+    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Common\CLinkList.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CLinkListNode.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CSound.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CSound3D.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CSoundDevice.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CSoundManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CWavFileHeader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CWavLoader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CMouseDevice.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CKeyMap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CPacket.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CKey.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CKeyboardDevice.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CFont.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CFontManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CTexture.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CTextureManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CBmpImage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CTgaImage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CImage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CImageManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CClient.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CClientSocket.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CServer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CWinsockError.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CWinsockErrorItem.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CShader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CShaderManager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CCamera.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CModel.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CShape.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CHudImage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CString.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\24bitu.tga">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\starryAlpha.tga">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\rifle.wav">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Assets\shotgun.wav">
+      <Filter>Assets</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Content\HudPixel.hlsl">
+      <Filter>Content</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\HudVertex.hlsl">
+      <Filter>Content</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
